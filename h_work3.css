@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.first-section {
+    width: 1920px;
+    height: 740px;
+    background: url(./Rectangle.svg);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+
+    width: 734px;
+    height: 171px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Oswald;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+}
+
+.text-mini {
+    width: 734px;
+    height: 22px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.main-block {
+    width: 1110px;
+    height: 300px;
+    flex-shrink: 0;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small-block {
+    width: 190px;
+    height: 186px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.text-one {
+    width: 190px;
+    height: 86px;
+    flex-shrink: 0;
+    color: var(--Accent, #F7654A);
+    text-align: center;
+    font-family: Oswald;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text-two {
+    width: 190px;
+    height: 43px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+.text-three {
+    width: 190px;
+    height: 22px;
+    flex-shrink: 0;
+    color: var(--gray, #999);
+    text-align: center;
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
